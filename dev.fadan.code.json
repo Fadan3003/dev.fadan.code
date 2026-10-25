@@ -33,13 +33,23 @@
         "install -Dm644 /app/chrome_100_percent.pak /app/bin/chrome_100_percent.pak",
         "install -Dm644 /app/chrome_200_percent.pak /app/bin/chrome_200_percent.pak",
         "cp -r /app/locales /app/bin/locales",
-        "cp -r /app/resources /app/bin/resources"
+        "cp -r /app/resources /app/bin/resources",
+        "install -Dm644 dev.fadan.code.desktop /app/share/applications/dev.fadan.code.desktop",
+        "install -Dm644 dev.fadan.code.png /app/share/icons/hicolor/512x512/apps/dev.fadan.code.png"
       ],
       "sources": [
         {
           "type": "file",
           "url": "https://github.com/Fadan3003/Fadan-code/releases/download/v1.0.0/fadan-code_1.0.0_amd64.deb",
           "sha256": "d7a68a247de51b84e19822d3db0ffa47f8a32b6dd17f88e74146c299783c1f31"
+        },
+        {
+          "type": "file",
+          "path": "dev.fadan.code.desktop"
+        },
+        {
+          "type": "file",
+          "path": "dev.fadan.code.png"
         }
       ]
     }
