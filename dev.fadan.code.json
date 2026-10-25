@@ -38,7 +38,8 @@
       "sources": [
         {
           "type": "file",
-          "path": "/home/fadan/Downloads/fadan-code_1.0.0_amd64.deb"
+          "url": "https://github.com/Fadan3003/Fadan-code/releases/download/v1.0.0/fadan-code_1.0.0_amd64.deb",
+          "sha256": "d7a68a247de51b84e19822d3db0ffa47f8a32b6dd17f88e74146c299783c1f31"
         }
       ]
     }
